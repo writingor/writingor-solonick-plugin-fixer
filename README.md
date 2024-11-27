@@ -1,0 +1,1 @@
+# writingor-solonick-plugin-fixer
