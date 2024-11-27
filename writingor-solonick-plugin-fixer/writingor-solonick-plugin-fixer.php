@@ -3,6 +3,9 @@
  * Plugin Name: Writingor Solonick Plugin Fixer
  * Description: Fix Portfolio pagination URL.
  * Version: 1.0.0
+ * 
+ * Author: Writingor
+ * Author URI: https://github.com/writingor
  */
 
 add_filter('register_post_type_args', 'update_portfolio_post_type', 20, 2);
