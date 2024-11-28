@@ -8,9 +8,9 @@
  * Author URI: https://github.com/writingor
  */
 
-add_filter('register_post_type_args', 'update_portfolio_post_type', 20, 2);
+add_filter('register_post_type_args', 'writinor_update_solinick_portfolio_post_type', 20, 2);
 
-function update_portfolio_post_type($args, $post_type) {
+function writinor_update_solinick_portfolio_post_type($args, $post_type) {
     if ($post_type === 'portfolio') {
         if (!$args['has_archive']) {
             $args['has_archive'] = true;
